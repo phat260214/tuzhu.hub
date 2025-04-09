@@ -1,15 +1,5 @@
 local start = tick()
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-KeySystem = true,
-        Title = "Key System",
-        Description = "tuzhu.hub",
-        KeyLink = "https://yeumoney.com/VURT_",
-        Keys = {"Free_key1240ak1390pae"},
-        Notifi = {"welcome to tuzhu.hub"}
-        Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "Key đã sai",
-       CopyKeyLink = "Copied to Clipboard"
 getgenv().SettingFarm ={
         ["Hide UI"] = false,
         ["Reset Teleport"] = {
@@ -52,15 +42,15 @@ getgenv().SettingFarm ={
         ["Select Hop"] = { -- 70% will have it
             ["Hop Server If Have Player Near"] = false, 
             ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
-            ["Hop Find Dough King Get Mirror Fractal"] = false,
+            ["Hop Find Dough King Get Mirror Fractal"] = true,
             ["Hop Find Raids Castle [CDK]"] = true,
             ["Hop Find Cake Queen [CDK]"] = true,
             ["Hop Find Soul Reaper [CDK]"] = true,
             ["Hop Find Darkbeard [SG]"] = true,
-            ["Hop Find Mirage [ Pull Lever ]"] = false,
+            ["Hop Find Mirage [ Pull Lever ]"] = true,
         },
         ["Farm Mastery"] = {
-            ["Melee"] = false,
+            ["Melee"] = true,
             ["Sword"] = false,
         },
         ["Buy Haki"] = {
@@ -77,6 +67,18 @@ getgenv().SettingFarm ={
         ["Webhook"] = {
             ["Enabled"] = false,
             ["WebhookUrl"] = "",
-        }
+        },
+        KeySystem = true,
+        Title = "Key System",
+        Description = "tuzhu.hub",
+        KeyLink = "https://yeumoney.com/VURT_",
+        Keys = {"Free_key1240ak1390pae"},
+        Notifi = {"welcome to tuzhu.hub"}
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "Key đã sai",
+       CopyKeyLink = "Copied to Clipboard" 
+       }
     }
+    
       
