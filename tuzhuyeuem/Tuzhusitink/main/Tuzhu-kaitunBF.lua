@@ -26,7 +26,7 @@ getgenv().SettingFarm ={
             ["Godhuman"] =  true,
             ["Skull Guitar"] = true,
             ["Mirror Fractal"] = true,
-            ["Cursed Dual Katana"] = false,
+            ["Cursed Dual Katana"] = true,
             ["Upgrade Race V2-V3"] = true,
             ["Auto Pull Lever"] = true,
         },
@@ -36,7 +36,7 @@ getgenv().SettingFarm ={
         },
         ["Auto Chat"] = {
             ["Enabled"] = true,
-            ["Text"] = "Tuzhu kaitun on top!",
+            ["Text"] = "Tuzhu hub on Top!",
         },
         ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
         ["Select Hop"] = { -- 70% will have it
@@ -67,18 +67,5 @@ getgenv().SettingFarm ={
         ["Webhook"] = {
             ["Enabled"] = false,
             ["WebhookUrl"] = "",
-        },
-        KeySystem = true,
-        Title = "Key System",
-        Description = "tuzhu.hub",
-        KeyLink = "https://yeumoney.com/VURT_",
-        Keys = {"Free_key1240ak1390pae"},
-        Notifi = {"welcome to tuzhu.hub"}
-        Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "Key đã sai",
-       CopyKeyLink = "Copied to Clipboard" 
-       }
+        }
     }
-    
-      
