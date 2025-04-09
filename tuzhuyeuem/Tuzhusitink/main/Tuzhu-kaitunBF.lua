@@ -35,8 +35,8 @@ getgenv().SettingFarm ={
             ["Fragment"] = 50000,
         },
         ["Auto Chat"] = {
-            ["Enabled"] = false,
-            ["Text"] = "",
+            ["Enabled"] = true,
+            ["Text"] = "Tuzhu kaitun on top!",
         },
         ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
         ["Select Hop"] = { -- 70% will have it
