@@ -1,4 +1,3 @@
-local start = tick()
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().SettingFarm ={
         ["Hide UI"] = false,
